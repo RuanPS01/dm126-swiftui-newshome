@@ -19,7 +19,7 @@ struct NavigationBar: View {
                 .fontWeight(.bold)
             
             Button(action: {
-                tempName = userName // Pre-preenche com o nome atual
+                tempName = userName
                 showingNameSheet = true
             }){
                 Image(systemName: "square.and.pencil.circle.fill")
